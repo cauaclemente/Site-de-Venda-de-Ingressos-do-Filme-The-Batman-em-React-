@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+
+#banner10 {
+    background-image: url('https://www.comunidadedasnacoes.com.br/wp-content/uploads/2022/04/batman.png');
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+
+Header{
+    display: flex;
+}
+
+#trailer-container{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.content{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.trailer {
+    width: 50%;
+}
+
+#sinopse {
+    width: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 30px;
+    
+}
+
+.description {
+    color: #fff;
+    font-size: 19px;
+    font-family: 'kdam thor pro', sans-serif;
+    width: 110%;
+}
+
+.button {
+    width: 200px;
+        height: 60px;
+        background-color: red;
+        color: #fff;
+        padding: 8px 10px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: .8s;
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        border: none;
+        outline: none;
+        margin-top: 25px;
+}
+
+.button:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+
+
+
+  @media (min-width: 1080px) {
+    #banner10 {
+      height: 800px; /* Aumenta a altura do banner */
+    }
+  
+    .content {
+      width: 80%; /* Aumenta a largura do conteúdo */
+    }
+  
+    .trailer {
+      width: 55%; /* Aumenta a largura do trailer */
+    }
+  
+    #sinopse {
+      width: 45%; /* Reduz a largura da sinopse */
+    }
+  
+    .description {
+      font-size: 22px; /* Aumenta o tamanho da fonte */
+    }
+  
+    .button {
+      width: 220px; /* Aumenta a largura do botão */
+      height: 70px; /* Aumenta a altura do botão */
+      font-size: 20px; /* Aumenta o tamanho da fonte do botão */
+    }
+  }
+
+  @media (min-width: 680px) {
+    
+    Herder{
+        display: flex;
+    }
+
+    #banner10 {
+      height: 500px; /* Ajusta a altura do banner para menor */
+    }
+  
+    .content {
+      width: 70%; /* Aumenta a largura do conteúdo */
+    }
+  
+    .trailer {
+      width: 60%; /* Aumenta a largura do trailer */
+    }
+  
+    #sinopse {
+      width: 40%; /* Reduz a largura da sinopse */
+    }
+  
+    .description {
+      font-size: 18px; /* Reduz o tamanho da fonte */
+    }
+  
+    .button {
+      width: 180px; /* Reduz a largura do botão */
+      height: 50px; /* Reduz a altura do botão */
+      font-size: 16px; /* Reduz o tamanho da fonte do botão */
+      margin-top: 20px; /* Reduz o espaçamento superior do botão */
+    }
+  }

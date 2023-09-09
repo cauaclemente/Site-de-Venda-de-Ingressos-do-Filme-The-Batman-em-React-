@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+
+
+#banner1 {
+    background-image: url("https://multiversomais.com/wp-content/uploads/2022/03/the-batman-3.jpg");
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+.comentarios {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.forms {
+    width: 30%;
+    height: 500px;
+    background-color: #000;
+    border-radius: 25px;
+    border: 5px solid #262626;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+li {
+    margin-top: 20px;
+    color: aliceblue;
+    font-size: 25px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.email {
+    margin-top: 10px;
+    color: white;
+    font-size: 15px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.nome {
+    margin-top: 10px;
+    color: white;
+    font-size: 15px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.opiniao {
+    margin-top: 10px;
+    color: red;
+    font-size: 15px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+textarea {
+    width: 300px;
+    height: 150px;
+    background-color: #F9F9F9;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.button {
+    width: 200px;
+    height: 60px;
+    background-color: #d21617;
+    color: #fff;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .8s;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin-top: 25px;
+}
+
+.button:hover {
+    background-color: #fff;
+    color: #000;
+}

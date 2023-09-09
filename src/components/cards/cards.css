@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+.actor-cards-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+
+.cards-content {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+
+}
+
+.card {
+        width: 80%;
+        height: 600px;
+        background-size: cover;
+        background-position: 50% 50%;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 1s;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        padding: 0 0 20px 10px;
+
+}
+
+.card:hover{
+    transform: scale(1.02);
+}
+
+
+.baner-01 {
+    background-image: url("https://p2.trrsf.com/image/fget/cf/940/0/images.terra.com/2021/10/17/708985444-batman-foto-nova-robert-pattinson-divulgacao-warner.jpg");
+}
+.baner-02 {
+    background-image: url("https://i0.wp.com/oquartonerd.com.br/wp-content/uploads/2020/06/237615.jpg?fit=1200%2C800&ssl=1");
+}
+.baner-03 {
+    background-image: url("https://img.ibxk.com.br/2021/04/20/20092230715545.jpeg?ims=328x  ");
+}
+
+
+

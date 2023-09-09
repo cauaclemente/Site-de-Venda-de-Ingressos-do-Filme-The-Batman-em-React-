@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+.fotos-pai {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.fotos-filho {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.card {
+    width: 100%;
+    height: 350px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #00000000;
+    font-size: 17px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.card:hover {
+    transform: scale(1.02);
+    border: 5px solid #d21617;
+
+}
+
+.banner-1 {
+    background-image: url("https://cdn.ome.lt/_up5CflgAChUkfmn76-QVIpQbfI=/970x360/smart/uploads/conteudo/fotos/batmanfogo.png")
+}
+
+.banner-2 {
+    background-image: url("https://trecobox.com.br/wp-content/uploads/2022/01/The-Batman-3.jpg");
+}
+
+.banner-3 {
+    background-image: url("https://www.denofgeek.com/wp-content/uploads/2021/10/Paul-Dano-Riddler-looks-like-Hush-in-The-Batman-trailer.jpeg?fit=1200%2C694");
+}
+
+.banner-4 {
+    background-image: url("https://static0.gamerantimages.com/wordpress/wp-content/uploads/2022/02/The-Batman-Jeffrey-Wright-Commissioner-Gordon-Challenge.jpg");
+}
+.banner-5 {
+        background-image: url("https://i0.wp.com/lugarnenhum.net/wp-content/uploads/2022/10/Imagem-do-filme-The-Batman-com-Robert-Pattinson.webp?resize=1024%2C576&ssl=1");
+}
+
+.banner-6 {
+    background-image: url("https://uploads.jovemnerd.com.br/wp-content/uploads/2022/03/filme-do-batman-referencias-easter-eggs.jpg");
+}
