@@ -6,6 +6,7 @@
     font-size: 45px;
     font-family: 'Kdam thmor pro' , sans-serif;
     font-weight: bold;
+    text-align: center;
     color: #ffff00;
     margin-left: 760px;
 }
@@ -94,6 +95,7 @@
 .wrapper{
     margin-left: 40%;
     margin-top: 150px;
+    
 }
 .contacts-container{
     background-position: 60%;

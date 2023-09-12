@@ -1,7 +1,7 @@
 import React from "react";
 import  './fotos.css';
 import Header from "../header/header";
-
+import Footer from "../../components/footer/footer";
 
 function Fotos(){
     return (
@@ -18,7 +18,7 @@ function Fotos(){
 
             </div>
         </div>
-        
+        <Footer />
     </>
     )
 }  

@@ -1,7 +1,7 @@
 import React from "react";
 import './comentarios.css';
 import Header from "../header/header";
-
+import Footer from "../../components/footer/footer";
 
 
 function Comentarios(){
@@ -31,7 +31,7 @@ function Comentarios(){
         </div>
     </div>
 
-   
+        <Footer />
         </>
     )
 }

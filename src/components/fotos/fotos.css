@@ -60,3 +60,14 @@
 .banner-6 {
     background-image: url("https://uploads.jovemnerd.com.br/wp-content/uploads/2022/03/filme-do-batman-referencias-easter-eggs.jpg");
 }
+
+
+@media (max-width: 430px) {
+    .fotos-filho {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .fotos-pai {
+        width: 100%;
+        height: auto;
+    }
+}

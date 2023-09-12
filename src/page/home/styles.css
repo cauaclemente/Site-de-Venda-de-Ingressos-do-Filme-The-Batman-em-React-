@@ -9,7 +9,7 @@
     height: 600px;
 }
 
-Header{
+.Header{
     display: flex;
 }
 
@@ -78,7 +78,7 @@ Header{
 
 
 
-  @media (min-width: 1080px) {
+  @media (max-width: 1080px) {
     #banner10 {
       height: 800px; /* Aumenta a altura do banner */
     }
@@ -88,11 +88,16 @@ Header{
     }
   
     .trailer {
-      width: 55%; /* Aumenta a largura do trailer */
+      width: 55%;
+       /* Aumenta a largura do trailer */
     }
   
     #sinopse {
-      width: 45%; /* Reduz a largura da sinopse */
+      width: 50%;
+      width: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
   
     .description {
@@ -107,25 +112,19 @@ Header{
   }
 
   @media (min-width: 680px) {
-    
-    Herder{
-        display: flex;
-    }
 
     #banner10 {
-      height: 500px; /* Ajusta a altura do banner para menor */
+      
+      height: 800px; /* Ajusta a altura do banner para menor */
     }
-  
-    .content {
-      width: 70%; /* Aumenta a largura do conteúdo */
-    }
-  
+
     .trailer {
-      width: 60%; /* Aumenta a largura do trailer */
+      width: 55%; /* Aumenta a largura do trailer */
     }
   
     #sinopse {
-      width: 40%; /* Reduz a largura da sinopse */
+      width: 90%; /* Reduz a largura da sinopse */
+ 
     }
   
     .description {
@@ -139,3 +138,74 @@ Header{
       margin-top: 20px; /* Reduz o espaçamento superior do botão */
     }
   }
+
+  @media (max-width: 650px) {
+    #banner10 {
+      height: 300px;
+      background-position: 90%;
+    }
+  
+    .Header{
+      flex-direction: column;
+    }
+  
+    #trailer-container{
+      height: 100%;
+    }
+  
+    .content{
+      flex-direction: column;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .trailer, #sinopse {
+      width: 70%;
+    }
+  
+    #sinopse {
+      margin-left: 0;
+    }
+  
+    .description {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 510px) {
+    #banner10 {
+      height: 200px;
+    }
+  
+    #trailer-container{
+      height: 100%;
+    }
+  
+    .content{
+      flex-direction: column;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .trailer, #sinopse {
+      width: 100%;
+    }
+  
+    #sinopse {
+      margin-left: 0;
+    }
+  
+    .description {
+      width: 100%;
+      font-size: 16px;
+    }
+  
+    .button {
+      width: 150px;
+      height: 50px;
+      font-size: 16px;
+    }
+  }
+  

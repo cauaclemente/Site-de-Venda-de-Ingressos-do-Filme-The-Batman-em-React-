@@ -9,6 +9,7 @@ header {
     justify-content: space-around;
     align-items: center;
     background-color: black;
+    padding: 10px;
 }
 
 nav {
@@ -38,5 +39,40 @@ li:hover {
 #logo {
     width: 50px;
     height: auto;
+}
+
+@media (max-width: 670px) {
+    header  {
+      display: flex;
+      align-items: flex-start;
+      justify-content: start;
+    }
+    li{
+        margin: 5px;
+        font-size: 10px;
+    }
+
+    ul{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    }
+  }
+
+@media (max-width:500px){
+    header  {
+        display: flex;
+        height: 260px;
+        width: 80px;
+        font-size: 10px;
+      }
+    
+    ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 100px;
+    }
 }
 
